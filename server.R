@@ -44,7 +44,7 @@ shinyServer(function(input,output){
   
   
   info_temp<-reactive({
-    key<-"f7a3619a5897059f10d1f5de57734916"
+    key<-""
     click<-input$mymap_click
     if (is.null(click)){
       lat <- "21.028511"
